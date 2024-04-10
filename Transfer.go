@@ -16,7 +16,7 @@ import (
 )
 
 var (
-	txTimeoutDefault               = 10 * time.Second
+	txTimeoutDefault               = 65* time.Second
 	waitConfirmationTimeoutDefault = 50 * time.Second
 	statusCheckTimeDefault         = 1 * time.Second
 )
